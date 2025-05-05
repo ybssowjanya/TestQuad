@@ -9,4 +9,4 @@ def read_root():
 
 @app.get("/search/")
 def search_items(query: str):
-    return {"query": query}
+    return {"query": "This is the query part"}
